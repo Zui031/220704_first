@@ -48,6 +48,8 @@
         <li>第二項</li>
         <li>第三項</li>
     </ol>
+    <!--一次要列出多個條列時 可直接ol(可替換)*數字-->
+
 
     <!--超連結-->
     <a href="https://www.youtube.com/">有趣影音網</a><br>
@@ -57,7 +59,44 @@
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ucVnDVMJ4zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/xsxoSiL79V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   <!--一次要列出多個條列時 可直接ol(可替換)*數字-->
 
+   <!--嵌入網站-->
+   <iframe src="http://127.0.0.1:5500/index.html" height="600" width="800"></iframe><br><br>
+   <iframe src="http://127.0.0.1:5500/index.html" height="300" width="400"></iframe>
+
+   <!--表單-->
+   <form action="">
+    text<input type="text" placeholder="提示文字"><br><br>
+    email<input type="email"><br><br>
+    number<input type="number"><br><br>
+    password<input type="password"><br><br>
+
+    <label>
+        <input type="checkbox">
+        <font size="3">勾勾</font>
+    </label><br><br>
+
+    <!--Radio-->
+    <label>
+        <input type="radio" name="選項" value="左"><!--一組name要一樣的-->
+        左
+    </label>
+    <label>
+        <input type="radio" name="選項" value="右">
+        右
+    </label><br><br>
+    <!---->
+
+    <button>Go</button><br><br>
+    
+    <textarea name="" id="" cols="50" rows="5"></textarea><br><br>
+
+    <select>
+        <option>下拉式</option>
+        <option value="">第二</option>
+        <option value="">第三</option>
+    </select>
+
+   </form>
 </body>
 </html>
